@@ -16,7 +16,7 @@ async def people_wedding(call: CallbackQuery):
 
 @dp.callback_query(F.data == "parents")
 async def people_wedding(call: CallbackQuery):
-    await call.message.answer("👌 marhamat")
+    # await call.message.answer("👌 marhamat")
     # video file_id ni qo'yish kerak
     await call.message.answer_video(video="BAACAgIAAxkBAAIBBmkdjFNHx01DGvygviK-d3PfnXgQAAJ8ewACSvPpSFlrfehKsUsjNgQ")
 
