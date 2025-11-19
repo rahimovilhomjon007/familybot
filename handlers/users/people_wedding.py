@@ -9,6 +9,11 @@ async def people_wedding(call: CallbackQuery):
     await call.message.answer("😜 Hozircha mavjud emas")
 
 
+@dp.callback_query(F.data == "dilfuz")
+async def people_wedding(call: CallbackQuery):
+    await call.message.answer_video(video="BAACAgIAAxkBAAIBBmkdjFNHx01DGvygviK-d3PfnXgQAAJ8ewACSvPpSFlrfehKsUsjNgQ")
+
+
 @dp.callback_query(F.data == "parents")
 async def people_wedding(call: CallbackQuery):
     await call.message.answer("👌 marhamat")
