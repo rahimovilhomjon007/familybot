@@ -23,7 +23,7 @@ async def people_wedding(call: CallbackQuery):
 
 @dp.callback_query(F.data == "ilhomjon_sunnat")
 async def people_wedding(call: CallbackQuery):
-    await call.message.answer_video(video="BAACAgIAAxkBAAIBBmkdjFNHx01DGvygviK-d3PfnXgQAAJ8ewACSvPpSFlrfehKsUsjNgQ")
+    await call.message.answer_video(video="BAACAgIAAxkBAAOSaSZ8VpmFK205bgXe7c0Ql--xQdoAAmqMAAJi-DFJScZXrBtPxCo2BA")
 
 
 @dp.callback_query(F.data == "bonu")
