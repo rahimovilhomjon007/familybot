@@ -7,5 +7,5 @@ from loader import dp
 # Echo bot
 @dp.message(State())
 async def bot_echo(message: types.Message):
-    await message.answer(message.text)
+    # await message.answer(message.text)
     await message.answer(message.video.file_id)
